@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6998f87fec305ab8c6802cf2a6aad9e7",
+    "content-hash": "6ad7dbaa0e47f4e3f37ba6b88259ae0c",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1469,6 +1469,24 @@
             "homepage": "https://wordpress.org/plugins/my-calendar/"
         },
         {
+            "name": "wpackagist-plugin/recaptcha-for-mw-wp-form",
+            "version": "1.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/recaptcha-for-mw-wp-form/",
+                "reference": "tags/1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/recaptcha-for-mw-wp-form.1.0.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/recaptcha-for-mw-wp-form/"
+        },
+        {
             "name": "wpackagist-plugin/seo-simple-pack",
             "version": "2.2.0",
             "source": {
@@ -1602,12 +1620,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "640ff0b5dcacc0958534c8c0255b90697f3eb2a8"
+                "reference": "616131e531dedfc378ffd6060e1cfdcce48ff3a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/640ff0b5dcacc0958534c8c0255b90697f3eb2a8",
-                "reference": "640ff0b5dcacc0958534c8c0255b90697f3eb2a8",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/616131e531dedfc378ffd6060e1cfdcce48ff3a2",
+                "reference": "616131e531dedfc378ffd6060e1cfdcce48ff3a2",
                 "shasum": ""
             },
             "conflict": {
@@ -1749,7 +1767,7 @@
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
-                "pimcore/pimcore": "<6.3",
+                "pimcore/pimcore": "<6.8.8",
                 "pocketmine/pocketmine-mp": "<3.15.4",
                 "prestashop/autoupgrade": ">=4,<4.10.1",
                 "prestashop/contactform": ">1.0.1,<4.3",
@@ -1921,7 +1939,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-18T21:02:27+00:00"
+            "time": "2021-02-25T17:25:28+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
